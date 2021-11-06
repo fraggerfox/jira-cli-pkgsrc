@@ -20,7 +20,7 @@ Usage
 
 Once you have copied the folder, install it as you would do for any port.
 
-`$ cd /usr/pkgsrc/sysutils/jira-cli`<br>
+`$ cd /usr/pkgsrc/www/jira-cli`<br>
 `$ make install clean`
 
 For a list of dependencies for the build check [here][2]
