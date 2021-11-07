@@ -10,7 +10,6 @@ HOMEPAGE=	https://github.com/ankitpokhrel/jira-cli
 COMMENT=	Feature-rich Interactive Jira Command Line
 LICENSE=	mit
 
-GO_BUILD_PATTERN=	./cmd/jira
 GO_BUILD_DATE_cmd=	${DATE} "+%FT%T%Z"
 GO_XFLAG_PREFIX=	-X github.com/ankitpokhrel/jira-cli/internal/version
 
