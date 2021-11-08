@@ -5,8 +5,6 @@ NetBSD [pkgsrc][4] script for `jira-cli`.
 
 You can find `jira-cli` [here][1]
 
-NOTE: This is `pkgsrc-wip` package for now.
-
 Installation
 ------------
 
@@ -41,4 +39,4 @@ BSD 2-clause. See LICENSE.
 [1]: https://github.com/ankitpokhrel/jira-cli
 [2]: https://github.com/ankitpokhrel/jira-cli#installation
 [3]: https://github.com/ankitpokhrel
-[4]: http://pkgsrc.se/wip/jira
+[4]: http://pkgsrc.se/www/jira-cli

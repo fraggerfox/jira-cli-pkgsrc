@@ -1,4 +1,4 @@
-# $NetBSD$
+# $NetBSD: Makefile,v 1.1 2021/11/08 09:39:30 fox Exp $
 
 DISTNAME=	jira-cli-0.1.1
 MASTER_SITES=	${MASTER_SITE_GITHUB:=ankitpokhrel/}
