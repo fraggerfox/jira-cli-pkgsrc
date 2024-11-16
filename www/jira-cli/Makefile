@@ -1,6 +1,6 @@
-# $NetBSD: Makefile,v 1.21 2023/02/04 15:49:35 fox Exp $
+# $NetBSD: Makefile,v 1.43 2024/10/06 12:09:18 fox Exp $
 
-DISTNAME=	jira-cli-1.3.0
+DISTNAME=	jira-cli-1.5.2
 MASTER_SITES=	${MASTER_SITE_GITHUB:=ankitpokhrel/}
 CATEGORIES=	www
 DIST_SUBDIR=	${PKGBASE}
@@ -11,6 +11,7 @@ HOMEPAGE=	https://github.com/ankitpokhrel/jira-cli
 COMMENT=	Feature-rich Interactive Jira Command Line
 LICENSE=	mit
 
+GO_VERSION_DEFAULT=	123
 GO_BUILD_DATE_cmd=	${DATE} "+%FT%T%Z"
 GO_XFLAG_PREFIX=	-X github.com/ankitpokhrel/jira-cli/internal/version
 
